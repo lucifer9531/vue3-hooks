@@ -1,5 +1,5 @@
 import { getCurrentInstance, reactive, shallowRef, watchEffect  } from 'vue';
-import type { Ref } from "vue";
+import type { Ref } from 'vue';
 type Recordable<T = any> = Record<string, T>;
 
 interface Params {
