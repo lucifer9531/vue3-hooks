@@ -1,6 +1,6 @@
 {
   "name": "vue3-hooks",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "IRIS",
   "description": "vue3 hooks library",
   "files": [
@@ -20,6 +20,10 @@
     "watch": "rollup -c --watch",
     "build": "cross-env NODE_ENV=production rollup -c"
   },
+  "peerDependencies": {
+    "@vueuse/core": "^6.8.0",
+    "vue-router": "4.0.3"
+  },
   "devDependencies": {
     "@types/js-cookie": "^2.2.7",
     "cross-env": "^7.0.3",
@@ -33,8 +37,7 @@
     "rollup-plugin-vue": "^6.0.0",
     "tslib": "^2.3.0",
     "typescript": "^4.3.5",
-    "vue": "3.0.11",
-    "vue-router": "4.0.3"
+    "vue": "3.0.11"
   },
   "dependencies": {
     "dayjs": "^1.10.5",

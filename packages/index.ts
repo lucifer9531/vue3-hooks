@@ -1,23 +1,16 @@
 import useRequest from './useRequest';
 import useDate from './useDate';
-import useDebounce from './useDebounce';
-import useDebounceFn from './useDebounceFn';
-import useThrottle from './useThrottle';
-import useThrottleFn from './useThrottleFn';
 import useBoolean from './useBoolean';
 import useToggle from './useToggle';
 import useVirtualList from './useVirtualList';
 import useDynamicList from './useDynamicList';
-import useLocalStorage from './useLocalStorage';
 import useSessionStorage from './useSessionStorage';
-import useNetwork from './useNetwork';
 import useCookie from './useCookie';
 import useLockFn from './useLockFn';
 import useSet from './useSet';
 import useMap from './useMap';
 import useMediaQuery from './useMediaQuery';
 import useExternal from './useExternal';
-import useFullscreen from './useFullscreen';
 import useDocumentVisibility from './useDocumentVisibility'
 import useTextSelection from './useTextSelection'
 import useInterval from './useInterval'
@@ -30,7 +23,7 @@ import useRefs from "./useRefs";
 import useScrollTo from './useScrollTo';
 
 // 暂时无法@/分包 未引入vue-router会导致都不能用
-// import useRouteQuery from './useRouteQuery';
+import useRouteQuery from './useRouteQuery';
 
 
 export {
@@ -38,10 +31,6 @@ export {
     useRequest,
 
     // Side
-    useDebounce,
-    useDebounceFn,
-    useThrottle,
-    useThrottleFn,
     useInterval,
     useTimeout,
 
@@ -50,10 +39,8 @@ export {
     useToggle,
     useDate,
     useCookie,
-    useLocalStorage,
     useSessionStorage,
-    // useRouteQuery,
-    useNetwork,
+    useRouteQuery,
     useSet,
     useMap,
     useWebSocket,
@@ -63,7 +50,6 @@ export {
     useDynamicList,
     useMediaQuery,
     useExternal,
-    useFullscreen,
     useDocumentVisibility,
     useTextSelection,
     useQRCode,

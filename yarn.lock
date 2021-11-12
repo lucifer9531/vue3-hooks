@@ -114,6 +114,21 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.0.11.tgz#20d22dd0da7d358bb21c17f9bde8628152642c77"
   integrity sha512-b+zB8A2so8eCE0JsxjL24J7vdGl8rzPQ09hZNhystm+KqSbKcAej1A+Hbva1rCMmTTqA+hFnUSDc5kouEo0JzA==
 
+"@vueuse/core@^6.8.0":
+  version "6.8.0"
+  resolved "http://60.205.181.203:4873/@vueuse%2fcore/-/core-6.8.0.tgz#dc004bc30031e053e9ef5011203c4a80f00986ed"
+  integrity sha512-C6KMBus29L/mVtA5eK26WAqj6tyPlugrKaPLi2uLtbV//BHjbxe1uo3gVXCc5SwouDEdc7zswlGPw/l0/++NRg==
+  dependencies:
+    "@vueuse/shared" "6.8.0"
+    vue-demi "*"
+
+"@vueuse/shared@6.8.0":
+  version "6.8.0"
+  resolved "http://60.205.181.203:4873/@vueuse%2fshared/-/shared-6.8.0.tgz#50713b770941293e557a4eae9424cad2aad44a85"
+  integrity sha512-+YjehQ8Qe4Qgyq8iTToVOzp4sZBAZvScv3AGJSMi6HYbe54+nyjrRfS8DN4fA0eUahyftHKZ00WKgMe7TS5N0w==
+  dependencies:
+    vue-demi "*"
+
 ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
@@ -629,6 +644,11 @@ universalify@^0.1.0:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
   integrity sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==
+
+vue-demi@*:
+  version "0.12.1"
+  resolved "http://60.205.181.203:4873/vue-demi/-/vue-demi-0.12.1.tgz#f7e18efbecffd11ab069d1472d7a06e319b4174c"
+  integrity sha512-QL3ny+wX8c6Xm1/EZylbgzdoDolye+VpCXRhI2hug9dJTP3OUJ3lmiKN3CsVV3mOJKwFi0nsstbgob0vG7aoIw==
 
 vue-router@4.0.3:
   version "4.0.3"
